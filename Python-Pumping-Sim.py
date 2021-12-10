@@ -138,10 +138,3 @@ def Flow_to_RPM(PCurve_Flow, PCurve_dkPa, Sys_curve, RPM_range):
     Curve_flow_to_rpm = np.poly1d(np.polyfit(flow_arr, RPM_range, 2))
     
     return Curve_flow_to_rpm
-    
-    
-    
-    
-    
-    
-    
